@@ -1,0 +1,11 @@
+---
+- name: Save Configurations (junos)
+  hosts: all
+  vars:
+    creds:
+      host: "{{ host }}"
+      username: "{{ username }}"
+      password: "{{ password }}"
+  tasks:
+    - junos_facts:
+        provider: "{{ creds }}"
