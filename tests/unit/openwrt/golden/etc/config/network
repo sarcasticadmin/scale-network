@@ -18,36 +18,29 @@ config switch
 
 
 config interface 'mgmt'
-        option proto 'dhcp'
-        option device 'switch0'
-        option ports '0t 5t'
-        option parent_if 'eth0'
-        option vlans '[103 503]'
+        option ifname 'eth1.103 eth1.503'
         option type 'bridge'
+        option proto 'dhcp'
+        
+config interface 'mgmt6'
+        option ifname '@mgmt'
+        option proto 'dhcpv6'
+        option reqprefix 'no'
         
 config interface 'staffwifi'
-        option vlans '[108 508]'
         option type 'bridge'
         option proto 'none'
-        option device 'switch0'
-        option ports '0t 5t'
-        option parent_if 'eth0'
+        option ifname 'eth1.108 eth1.508'
         
 config interface 'scaleslow'
-        option proto 'none'
-        option device 'switch0'
-        option ports '0t 5t'
-        option parent_if 'eth0'
-        option vlans '[100 500]'
+        option ifname 'eth1.100 eth1.500'
         option type 'bridge'
+        option proto 'none'
         
 config interface 'scalefast'
+        option ifname 'eth1.101 eth1.501'
         option type 'bridge'
         option proto 'none'
-        option device 'switch0'
-        option ports '0t 5t'
-        option parent_if 'eth0'
-        option vlans '[101 501]'
         
 
 
