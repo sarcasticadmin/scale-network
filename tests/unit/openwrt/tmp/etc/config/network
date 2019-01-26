@@ -18,14 +18,14 @@ config switch
 
 
 config interface 'mgmt'
-        option proto 'dhcp'
         option ifname 'eth1.103 eth1.503'
         option type 'bridge'
+        option proto 'dhcp'
         
 config interface 'mgmt6'
-        option reqprefix 'no'
         option ifname '@mgmt'
         option proto 'dhcpv6'
+        option reqprefix 'no'
         
 config interface 'staffwifi'
         option ifname 'eth1.108 eth1.508'
@@ -38,9 +38,9 @@ config interface 'scaleslow'
         option proto 'none'
         
 config interface 'scalefast'
-        option ifname 'eth1.101 eth1.501'
         option type 'bridge'
         option proto 'none'
+        option ifname 'eth1.101 eth1.501'
         
 
 
