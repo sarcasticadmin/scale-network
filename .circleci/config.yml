@@ -29,32 +29,40 @@ jobs:
   # TODO: Figure out when to do end-to-end build test
   # builds take a long time and should be done
   # outside of initial ci testing
-  #openwrt_test_build:
-  #  docker:
-  #  - image: debian:jessie-20190204
-  #  resource_class: medium
-  #  working_directory: ~/scale-network/openwrt
-  #  steps:
-  #  - checkout:
-  #      path: ~/scale-network
-  #
-  #  - run:
-  #      name: install Image Builder Deps
-  #      command: apt-get update && apt-get install -y curl file build-essential libncurses5-dev
-  #        zlib1g-dev gawk git gettext libssl-dev xsltproc wget unzip python
-  #
-  #  - run:
-  #      name: download gomplate
-  #      command: wget -o /usr/local/bin/gomplate https://github.com/hairyhenderson/gomplate/releases/download/v3.2.0/gomplate_linux-amd64
-  #        && chmod +x /usr/local/bin/gomplate
-  #
-  #  - run:
-  #      name: rename default facts
-  #      command: cp ../facts/secrets/openwrt-example.yaml ../facts/secrets/openwrt.yaml
-  #
-  #  - run:
-  #      name: build openwrt image
-  #      command: make build-img
+  openwrt_nightly_build:
+    docker:
+    - image: sarcasticadmin/openwrt-buildroot
+      resource_class: medium
+      working_directory: ~/scale-network/openwrt
+      steps:
+    - checkout:
+      path: ~/scale-network
+
+    - run:
+        name: build openwrt image
+        command: TARGET=ar71xx make templates build-img
+
+    - run:
+        name: build openwrt image
+        command: TARGET=ipq806x make templates build-img
+
+    - run:
+        command: |
+            mkdir -p /tmp/ar71xx
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ar71xx-*/bin/targets/ar71xx/generic/openwrt-ar71xx-generic-*factory.img /tmp/ar71xx
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ar71xx-*/bin/targets/ar71xx/generic/sha256sums /tmp/ar71xx
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ar71xx-*/bin/targets/ar71xx/generic/6sums /tmp/ar71xx
+
+    - run:
+        command: |
+            mkdir -p /tmp/ipq806x
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ipq806x-*/bin/targets/ipq806x/generic/openwrt-ipq806x-generic-*factory.img /tmp/ipq806x
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ipq806x-*/bin/targets/ipq806x/generic/sha256sums /tmp/ipq806x
+	    cp /home/openwrt/workspace/scale-network/openwrt/build/source-ipq806x-*/bin/targets/ipq806x/generic/6sums /tmp/ipq806x
+    - store_artifacts:
+        path: /tmp/ar71xx
+    - store_artifacts:
+        path: /tmp/ipq806x
 
   ansible_lint:
     docker:
