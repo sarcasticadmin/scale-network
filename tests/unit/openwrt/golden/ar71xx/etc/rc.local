@@ -1,6 +1,9 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
 
+# Default config version to 0
+/root/bin/config-version.sh
+
 # TODO make this a true service
 /root/bin/wifi-details.sh >/dev/null 2>/dev/null </dev/null &
 
