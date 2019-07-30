@@ -59,7 +59,12 @@ $(BUILD_DIR)/$(IMAGEBUILDER)/.config: feeds
 config: $(BUILD_DIR)/$(IMAGEBUILDER)/.config
 
 build-img: $(BUILD_DIR)/$(IMAGEBUILDER)/.config
-	@cd $(BUILD_DIR)/$(IMAGEBUILDER) && $(MAKE) download && $(MAKE) V=s -j 4
+	@cd $(BUILD_DIR)/$(IMAGEBUILDER) \
+	  && echo $$(date) > $(TMPL_SRC_DIR)/etc/build.info \
+	  && git describe --dirty >> $(TMPL_SRC_DIR)/etc/build.info \
+	  && echo $(LEDE_VER) >> $(TMPL_SRC_DIR)/etc/build.info
+	  #&& $(MAKE) download \
+	  #&& $(MAKE) V=s -j 4
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
@@ -85,4 +90,6 @@ endif
 	chmod 640 $(TMPL_OUT_DIR)/root/.ssh/authorized_keys
 	@cd $(TMPL_OUT_DIR)/etc/config && ln -s network.0 network && ln -s wireless.0 wireless
 	@cd $(TMPL_OUT_DIR)/etc && ln -s /tmp/resolv.conf.auto resolv.conf
+	echo $$(date) > $(TMPL_OUT_DIR)/etc/templates.info
+	git describe --dirty >> $(TMPL_OUT_DIR)/etc/templates.info
 	touch $(TMPL_OUT_DIR)
