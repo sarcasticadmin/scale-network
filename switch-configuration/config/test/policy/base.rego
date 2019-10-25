@@ -1,16 +1,19 @@
 package main
 
-deny[msg] {
-	not input.system["host-name"]
-	msg == "Config must set a hostname"
+set_mgmt_address {
+	input.interfaces["me-0"]["unit 0"]["family inet"].address == "192.168.255.76/24"
 }
 
-deny[msg] {
-	not input.interfaces["me-0"]["unit 0"]["family inet"].address == "192.168.255.76/24"
-	msg = "Expecting management port to be on designated subnet"
+set_ssh_v2 {
+	input.system.services.ssh["protocol-version"] == "v2"
+}
+
+has_hostname {
+	input.system["host-name"]
 }
 
 allow {
-	input.system.services.ssh["protocol-version"] == "v2"
-	msg = "ssh needs to be set to v2"
+	has_hostname
+	set_mgmt_address
+	set_ssh_v2
 }
