@@ -1,5 +1,7 @@
 package main
 
+default allow = false
+
 set_mgmt_address {
 	input.interfaces["me-0"]["unit 0"]["family inet"].address == "192.168.255.76/24"
 }

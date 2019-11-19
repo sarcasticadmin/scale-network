@@ -1,1 +1,1405 @@
-{"system":{"host-name":"ExpoA4","root-authentication":{"encrypted-password":"\"scale\""},"syslog":{"user *":{"any":"emergency"},"file messages":{"any":"notice","authorization":"info"},"file interactive-commands":{"interactive-commands":"any"}},"login":{"user dlang":{"class":"super-user","authentication":{"ssh-rsa":"\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFyz75cUD5pMz7bWdNVc9pLZ9QNS+scMMHHbVvZ060tYlbD2YS1FuIXcyisKYLr29/3O+/ciKOIcw/Q2pzsxgL8mO0ATJzwtvtyhWIcMhJBZNR2jbPwIeKp7Z5NBk8fMDRpWI6i9saLLMr9XtZ2B9RLewIqAAZs0vujJKauaLWVYVFQwkkqKL0WIGP/7fCf1BUHz3vrA1fQDwzhCMayNUBtYwzXtk1Cc0alSLvs1AiqEBWr/n+sduhyUERlFVgvATsH0j1AnLbESathqX4DIatVdHdkAkNaiOAWbguqLDtUiJqcU+eahPFJTeDpLqp6KNP5ZfOr2EQwXZt5mhACjHP davidlang@T470-op-07\""}},"user kyle":{"class":"super-user","authentication":{"ssh-rsa":"\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDrMp0YYH1epC8A3dci7gSPB/Prko4/ULY74kD/3kSrF/4FDfsfhTVo1on1SN42fdBbbUFc0rwoy1qhFETs+MmJIplmhU5d72nStR/jDjFbshKEtTFrg02uatVbq/xDCsdgq/uJ7UJaa5a8m5XEO/rqziPWipDe5qCj3V8pX/+oCBccnqtnTvY9WsxJioOwwSu45NbW7Bhg2hOHFCwj0qcGT7Gfa6EljAypOcxaGKH/aFsHM239OedXP9QAr7XiJ5px6EFvVSqkX3tqxpw6/7KnMrSrkC4OXacxIZyibvy0IdQm0fVljx876Sf5a7n9vZMvWhEEgxf3IH2b2zZzPtuR9HwoqTqnN37kBIeh0WpFwmkRLxgcueZdRv9PxZ2pIPrxRyMLNj4750n8GAmXzwaDv4fNUr6vMosj2umnxyWGFw48tq8Vn6b75MeadI2Tu07occJRKnYN+5W2OVWhwi17f2SZT9NdHBIJJYu1GuzG6e4EwHzTz+iqxRtjTWxrkDCcopKmwyc42seN/JdozzEaATAY0h13XhM1k26vNkafhCkWQcTaTpZpjTc1Voz0jPqQajjP4d1krHs8377lO1ZZ5ZADXFykgvGzflf93WREqo9MODlbXbkxpkvqiyBIZM/28IR/EsnHJhYvY5ucEAMovAyp1tu567QPZNJF6XRsKw==\""}},"user owen":{"class":"super-user","authentication":{"ssh-ecdsa":"\"ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBjjcUJLTENGrV6K/nrPOswcBVMMuS4sLSs0UyTRw8wU87PDUzJz8Ht2SgHqeEQJdRm1+b6iLsx2uKOf+/pU8qE= root@kiev.delong.com\""}},"user rob":{"class":"super-user","authentication":{"ssh-rsa":"\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDBP0XP83nOtxnsGJ7AG+FuT7dbAEO8BrIHlPbhCGhKjFKcq8g6LWa0htx3iwHJB2VfasIVSqWAC7SwX81XfSTwpvNSNVXvrIcMNdYOpEBHx5W94iVP2ooVVsGIeK/M+Eu9toiHebtVFT45hQ8VO5DwqbG6xPgEp1PmLsPhyBwP0LyC8Q4tA2ttftC6/fJa6fa1G54c7D/euIhZnyM/ovcpYfNYTlarX/yLJoYaOEk5ByYJPYnpQtm2GQX8CdT/U14nDtJ/VjzW8kP/R6+ZsmGpxBrWp2Mn03LjL4CzTSN3cbE2CAKKSjkIcaaoohRZS+JXnxm5+TXF/6QmN0MPU3SSThKWIzOhzfMrLqOu6hsw16x9lF1eJreUZr/WysWOswM4WNoffBv6mKvVsMR8Z8tgERR8+sIxUaoVOfChR9wRoD5lcNnVxrC6rcF+rBxeY4JiPS3zpyamwteyR0n2YspT9Dl0MlZb4cWml2aBnvYk0TmoCC3eGs+2/wssL4s+64TiFC8WkK7U7RW0eYODwPJQbzNGZBjcsVlKD4whs5cNGlgjkZJzTdFt49EwIKmFnSd9Ly/NY3zhByFS/MN3Mj9I2AqMRZ/i4iT72gATE9aLle1xViGxjK7bHmHT2H1yqQhJ5bMcorpDzSZyTkyBTDDnOgh8tM+tBG204kYywQW/RQ==\""}},"user steveb":{"class":"super-user","authentication":{"ssh-rsa":"\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrMBEZC9WB9dJMGoev5b+P8I5UtcQLLpoBfKDrEF8bHdQ1AcdpCMtEnTVNmqVMzq8+gRR2CzbqI1Ue7KteFtZX/YtKIEEyL6D5kzhWyQrybl35nxA5VIKJrNszHdXDb/MGMwTMfWV1/VEka4UnCwXpgPH/AXQ/abhmFFDAJnc+PmqXPX3fHA4J5fpl/6CkT7JLKGMpsI7LCtU6cohtnXZrDHqFmPa6T+nHv2cT2QF6eSIPuMX7sLth6QI92yTam8+QUAeMFzEZOcmb6W8CNGio13ezn8ljQ6lB5uZLHhnnuxG9z6RJZugMzU9UxpkHRSKUVX9+qRGf1ntiPKE5Pb4x bibayoff@gmail.com\""}}},"services":{"ssh":{"protocol-version":"v2"},"netconf":{"ssh":""}}},"chassis":{"alarm":{"management-ethernet":{"link-down":"ignore"}}},"snmp":{"community Junitux":{"authorization":"read-only","clients":{"2001:470:f325:103::/64":"","2001:470:f325:503::/64":""}}},"interfaces":{"me-0":{"unit 0":{"family inet":{"address":"192.168.255.76/24"}}},"ge-0/0/0":{"description":"\"TRUNK Port (exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone ]"}}},"ge-0/0/1":{"description":"\"TRUNK Port (exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone ]"}}},"ge-0/0/8":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/9":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/10":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/11":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/12":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/13":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/14":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/15":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/16":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"ge-0/0/17":{"description":"\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"","unit 0":{"family ethernet-switching":{"port-mode":"trunk","vlan":"members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"}}},"inactive: ge-0/0/18":{"unit 0":{"family":"ethernet-switching"}},"inactive: ge-0/0/19":{"unit 0":{"family":"ethernet-switching"}},"inactive: ge-0/0/20":{"unit 0":{"family":"ethernet-switching"}},"inactive: ge-0/0/21":{"unit 0":{"family":"ethernet-switching"}},"inactive: ge-0/0/22":{"unit 0":{"family":"ethernet-switching"}},"inactive: ge-0/0/23":{"unit 0":{"family":"ethernet-switching"}},"ge-0/0/24":{"unit 0":{"description":"\"Vendor VLAN 248\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_248"}}}},"ge-0/0/25":{"unit 0":{"description":"\"Vendor VLAN 249\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_249"}}}},"ge-0/0/26":{"unit 0":{"description":"\"Vendor VLAN 250\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_250"}}}},"ge-0/0/27":{"unit 0":{"description":"\"Vendor VLAN 251\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_251"}}}},"ge-0/0/28":{"unit 0":{"description":"\"Vendor VLAN 252\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_252"}}}},"ge-0/0/29":{"unit 0":{"description":"\"Vendor VLAN 253\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_253"}}}},"ge-0/0/30":{"unit 0":{"description":"\"Vendor VLAN 254\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_254"}}}},"ge-0/0/31":{"unit 0":{"description":"\"Vendor VLAN 255\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_255"}}}},"ge-0/0/32":{"unit 0":{"description":"\"Vendor VLAN 256\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_256"}}}},"ge-0/0/33":{"unit 0":{"description":"\"Vendor VLAN 257\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_257"}}}},"ge-0/0/34":{"unit 0":{"description":"\"Vendor VLAN 258\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_258"}}}},"ge-0/0/35":{"unit 0":{"description":"\"Vendor VLAN 259\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_259"}}}},"ge-0/0/36":{"unit 0":{"description":"\"Vendor VLAN 260\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_260"}}}},"ge-0/0/37":{"unit 0":{"description":"\"Vendor VLAN 261\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_261"}}}},"ge-0/0/38":{"unit 0":{"description":"\"Vendor VLAN 262\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_262"}}}},"ge-0/0/39":{"unit 0":{"description":"\"Vendor VLAN 263\"","family ethernet-switching":{"port-mode":"access","vlan":{"members":"vendor_vlan_263"}}}},"vlan":{"#":"Automatically Generated Layer 3 Configuration for ExpoA4 (MGT: 103 Addr: 2001:470:f325:103::200:38 Type: Booth","unit 103":{"family inet6":{"address":"2001:470:f325:103::200:38/64"}},"unit 499":{"family inet":{"address":"10.1.0.58/24"}},"unit 248":{"family inet":{"address":"10.2.48.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:248::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 249":{"family inet":{"address":"10.2.49.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:249::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 250":{"family inet":{"address":"10.2.50.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:250::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 251":{"family inet":{"address":"10.2.51.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:251::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 252":{"family inet":{"address":"10.2.52.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:252::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 253":{"family inet":{"address":"10.2.53.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:253::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 254":{"family inet":{"address":"10.2.54.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:254::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 255":{"family inet":{"address":"10.2.55.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:255::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 256":{"family inet":{"address":"10.2.56.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:256::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 257":{"family inet":{"address":"10.2.57.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:257::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 258":{"family inet":{"address":"10.2.58.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:258::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 259":{"family inet":{"address":"10.2.59.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:259::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 260":{"family inet":{"address":"10.2.60.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:260::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 261":{"family inet":{"address":"10.2.61.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:261::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 262":{"family inet":{"address":"10.2.62.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:262::1/64","filter":["input only_to_internet6","output only_from_internet6"]}},"unit 263":{"family inet":{"address":"10.2.63.1/24","filter":["input only_to_internet","output only_from_internet"]},"family inet6":{"address":"2001:470:f325:263::1/64","filter":["input only_to_internet6","output only_from_internet6"]}}}},"forwarding-options":{"dhcp-relay":{"dhcpv6":{"group vendors":{"interface":["vlan.248","vlan.249","vlan.250","vlan.251","vlan.252","vlan.253","vlan.254","vlan.255","vlan.256","vlan.257","vlan.258","vlan.259","vlan.260","vlan.261","vlan.262","vlan.263"]},"server-group":{"Conference":{"2001:470:f325:503::5":""},"Expo":{"2001:470:f325:103::5":""},"AV":{"2001:470:f325:105::10":""}},"active-server-group":"Expo"},"server-group":{"Conference":{"10.128.3.5":""},"Expo":{"10.0.3.5":""},"AV":{"10.0.5.10":""}},"active-server-group":"Expo","group vendors":{"interface":["vlan.248","vlan.249","vlan.250","vlan.251","vlan.252","vlan.253","vlan.254","vlan.255","vlan.256","vlan.257","vlan.258","vlan.259","vlan.260","vlan.261","vlan.262","vlan.263"]}}},"routing-options":{"static":{"route":"0.0.0.0/0 next-hop 10.2.0.1"},"rib inet6.0":{"static":{"route":"::/0 next-hop 2001:470:f325:103::1"}}},"protocols":{"igmp-snooping":{"vlan":"all"},"rstp":"","lldp":{"interface":"all"},"lldp-med":{"interface":"all"},"router-advertisement":{"interface vlan.248":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:248::/64":{"on-link":"","autonomous":""}},"interface vlan.249":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:249::/64":{"on-link":"","autonomous":""}},"interface vlan.250":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:250::/64":{"on-link":"","autonomous":""}},"interface vlan.251":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:251::/64":{"on-link":"","autonomous":""}},"interface vlan.252":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:252::/64":{"on-link":"","autonomous":""}},"interface vlan.253":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:253::/64":{"on-link":"","autonomous":""}},"interface vlan.254":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:254::/64":{"on-link":"","autonomous":""}},"interface vlan.255":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:255::/64":{"on-link":"","autonomous":""}},"interface vlan.256":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:256::/64":{"on-link":"","autonomous":""}},"interface vlan.257":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:257::/64":{"on-link":"","autonomous":""}},"interface vlan.258":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:258::/64":{"on-link":"","autonomous":""}},"interface vlan.259":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:259::/64":{"on-link":"","autonomous":""}},"interface vlan.260":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:260::/64":{"on-link":"","autonomous":""}},"interface vlan.261":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:261::/64":{"on-link":"","autonomous":""}},"interface vlan.262":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:262::/64":{"on-link":"","autonomous":""}},"interface vlan.263":{"other-stateful-configuration":"","dns-server-address":["2001:470:f325:103::5","2001:470:f325:503::5"],"prefix 2001:470:f325:263::/64":{"on-link":"","autonomous":""}}},"ospf":{"area 0.0.0.0":{"interface":"vlan.499","interface vlan.248":{"passive":""},"interface vlan.249":{"passive":""},"interface vlan.250":{"passive":""},"interface vlan.251":{"passive":""},"interface vlan.252":{"passive":""},"interface vlan.253":{"passive":""},"interface vlan.254":{"passive":""},"interface vlan.255":{"passive":""},"interface vlan.256":{"passive":""},"interface vlan.257":{"passive":""},"interface vlan.258":{"passive":""},"interface vlan.259":{"passive":""},"interface vlan.260":{"passive":""},"interface vlan.261":{"passive":""},"interface vlan.262":{"passive":""},"interface vlan.263":{"passive":""}}},"ospf3":{"area 0.0.0.0":{"interface":"vlan.103","interface vlan.248":{"passive":""},"interface vlan.249":{"passive":""},"interface vlan.250":{"passive":""},"interface vlan.251":{"passive":""},"interface vlan.252":{"passive":""},"interface vlan.253":{"passive":""},"interface vlan.254":{"passive":""},"interface vlan.255":{"passive":""},"interface vlan.256":{"passive":""},"interface vlan.257":{"passive":""},"interface vlan.258":{"passive":""},"interface vlan.259":{"passive":""},"interface vlan.260":{"passive":""},"interface vlan.261":{"passive":""},"interface vlan.262":{"passive":""},"interface vlan.263":{"passive":""}}},"":""},"firewall":{"family inet":{"filter only_to_internet":{"term dns":{"from":{"destination-address":{"10.0.3.0/24":"","10.128.3.0/24":""},"destination-port":"domain"},"then":{"accept":""}},"term dhcp":{"from":{"destination-address":{"10.0.3.0/24":"","10.128.3.0/24":""},"destination-port":"[ bootps dhcp ]"}},"term no-rfc1918":{"from":{"destination-address":{"10.0.0.0/8":"","172.16.0.0/12":"","192.168.0.0/16":""}},"then":{"reject":""}},"term to-internet":{"from":{"destination-address":{"0.0.0.0/0":""}},"then":{"accept":""}}},"filter only_from_internet":{"term dns":{"from":{"source-address":{"10.0.3.0/24":"","10.128.3.0/24":""},"source-port":"domain"},"then":{"accept":""}},"term dhcp":{"from":{"source-address":{"10.0.3.0/24":"","10.128.3.0/24":""},"source-port":"[ bootps dhcp ]"},"then":{"accept":""}},"term no-rfc1918":{"from":{"source-address":{"10.0.0.0/8":"","172.16.0.0/12":"","192.168.0.0/16":""}},"then":{"discard":""}},"term to-internet":{"from source-address":{"0.0.0.0/0":""},"then":{"accept":""}}}},"family inet6":{"filter only_to_internet6":{"term dns":{"from":{"destination-address":{"2001:470:f325:103::/64":"","2001:470:f325:503::/64":""},"destination-port":"domain"},"then":{"accept":""}},"term dhcp":{"from":{"destination-address":{"2001:470:f325:103::/64":"","2001:470:f325:503::/64":""},"destination-port":"[ bootps dhcp ]"},"then":{"accept":""}},"term no-local":{"from":{"destination-address":{"2001:470:f325::/48":"","fc00::/7":""}},"then":{"reject":""}},"term to-internet":{"from":{"destination-address":{"::/0":""}},"then":{"accept":""}}},"filter only_from_internet6":{"term dns":{"from":{"source-address":{"2001:470:f325:103::/64":"","2001:470:f325:503::/64":""},"source-port":"domain"},"then":{"accept":""}},"term dhcp":{"from":{"source-address":{"2001:470:f325:103::/64":"","2001:470:f325:503::/64":""},"source-port":"[ bootps dhcp ]"},"then":{"accept":""}},"term no-local":{"from":{"source-address":{"2001:470:f325::/48":"","fc00::/7":""}},"then":{"discard":""}},"term to-internet":{"from":{"source-address":{"::/0":""}},"then":{"accept":""}}}}},"ethernet-switching-options":{"storm-control":{"interface":"all"}},"vlans":{"exSCALE-SLOW":{"description":"\"2.4G Wireless Network in Expo Center\"","vlan-id":"100"},"exSCALE-FAST":{"description":"\"5G Wireless Network in Expo Center\"","vlan-id":"101"},"exSpeaker":{"description":"\"Speaker Network\"","vlan-id":"102"},"exInfra":{"description":"\"SCALE Network Infrastructure and Servers (Expo Center)\"","vlan-id":"103","l3-interface":"vlan.103"},"exMDF":{"description":"\"Link to MDF Router\"","vlan-id":"104"},"exAVLAN":{"description":"\"Audio Visual Network (DHCP Helper to AV server)\"","vlan-id":"105"},"exSigns":{"description":"\"Signs network (Expo Center) IPv6 Only\"","vlan-id":"107"},"exStaff":{"description":"\"Staff Wireless Network\"","vlan-id":"108"},"exRegistration":{"description":"\"Registration Network (Expo Center) IPv6 Only\"","vlan-id":"110"},"exAkamai":{"description":"\"Special public Akamai Cache Cluster network (has IPv4 from convention center)\"","vlan-id":"111"},"cfSCALE-SLOW":{"description":"\"2.4G Wireless Network in Conference Center\"","vlan-id":"500"},"cfSCALE-FAST":{"description":"\"5G Wireless Network in Conference Center\"","vlan-id":"501"},"cfSpeaker":{"description":"\"Speaker Network\"","vlan-id":"502"},"cfInfra":{"description":"\"SCALE Network Infrastructure and Servers (Conference Center)\"","vlan-id":"503"},"cfCTF":{"description":"\"Capture the Flag\"","vlan-id":"504"},"cfAVLAN":{"description":"\"Audio Visual Network (DHCP Helper to AV server)\"","vlan-id":"505"},"cfNOC":{"description":"\"Wired network in NOC\"","vlan-id":"506"},"cfSigns":{"description":"\"Signs network (Conference Center) IPv6 Only\"","vlan-id":"507"},"cfStaff":{"description":"\"Staff Wifi Network\"","vlan-id":"508"},"cfHam_N6S":{"description":"\"HAM radio station in Conference Center\"","vlan-id":"509"},"MDF_LINK":{"description":"\"Link between IDF in Conference and Expo Centers\"","vlan-id":"900"},"HAM_BRIDGE":{"description":"\"Link between N6S station and Ham Booth in Expo\"","vlan-id":"950"},"COGENT":{"description":"\"COGENT IPv4 Transit Link (PSAV & PCC)\"","vlan-id":"999"},"vendor_backbone":{"description":"\"Vendor Backbone\"","vlan-id":"499","l3-interface":"vlan.499"},"vendor_vlan_248":{"vlan-id":"248","l3-interface":"vlan.248"},"vendor_vlan_249":{"vlan-id":"249","l3-interface":"vlan.249"},"vendor_vlan_250":{"vlan-id":"250","l3-interface":"vlan.250"},"vendor_vlan_251":{"vlan-id":"251","l3-interface":"vlan.251"},"vendor_vlan_252":{"vlan-id":"252","l3-interface":"vlan.252"},"vendor_vlan_253":{"vlan-id":"253","l3-interface":"vlan.253"},"vendor_vlan_254":{"vlan-id":"254","l3-interface":"vlan.254"},"vendor_vlan_255":{"vlan-id":"255","l3-interface":"vlan.255"},"vendor_vlan_256":{"vlan-id":"256","l3-interface":"vlan.256"},"vendor_vlan_257":{"vlan-id":"257","l3-interface":"vlan.257"},"vendor_vlan_258":{"vlan-id":"258","l3-interface":"vlan.258"},"vendor_vlan_259":{"vlan-id":"259","l3-interface":"vlan.259"},"vendor_vlan_260":{"vlan-id":"260","l3-interface":"vlan.260"},"vendor_vlan_261":{"vlan-id":"261","l3-interface":"vlan.261"},"vendor_vlan_262":{"vlan-id":"262","l3-interface":"vlan.262"},"vendor_vlan_263":{"vlan-id":"263","l3-interface":"vlan.263"}}}
+{
+    "system": {
+        "host-name": "ExpoA4",
+        "root-authentication": {
+            "encrypted-password": "\"scale\""
+        },
+        "syslog": {
+            "user *": {
+                "any": "emergency"
+            },
+            "file messages": {
+                "any": "notice",
+                "authorization": "info"
+            },
+            "file interactive-commands": {
+                "interactive-commands": "any"
+            }
+        },
+        "login": {
+            "user dlang": {
+                "class": "super-user",
+                "authentication": {
+                    "ssh-rsa": "\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFyz75cUD5pMz7bWdNVc9pLZ9QNS+scMMHHbVvZ060tYlbD2YS1FuIXcyisKYLr29/3O+/ciKOIcw/Q2pzsxgL8mO0ATJzwtvtyhWIcMhJBZNR2jbPwIeKp7Z5NBk8fMDRpWI6i9saLLMr9XtZ2B9RLewIqAAZs0vujJKauaLWVYVFQwkkqKL0WIGP/7fCf1BUHz3vrA1fQDwzhCMayNUBtYwzXtk1Cc0alSLvs1AiqEBWr/n+sduhyUERlFVgvATsH0j1AnLbESathqX4DIatVdHdkAkNaiOAWbguqLDtUiJqcU+eahPFJTeDpLqp6KNP5ZfOr2EQwXZt5mhACjHP davidlang@T470-op-07\""
+                }
+            },
+            "user kyle": {
+                "class": "super-user",
+                "authentication": {
+                    "ssh-rsa": "\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDrMp0YYH1epC8A3dci7gSPB/Prko4/ULY74kD/3kSrF/4FDfsfhTVo1on1SN42fdBbbUFc0rwoy1qhFETs+MmJIplmhU5d72nStR/jDjFbshKEtTFrg02uatVbq/xDCsdgq/uJ7UJaa5a8m5XEO/rqziPWipDe5qCj3V8pX/+oCBccnqtnTvY9WsxJioOwwSu45NbW7Bhg2hOHFCwj0qcGT7Gfa6EljAypOcxaGKH/aFsHM239OedXP9QAr7XiJ5px6EFvVSqkX3tqxpw6/7KnMrSrkC4OXacxIZyibvy0IdQm0fVljx876Sf5a7n9vZMvWhEEgxf3IH2b2zZzPtuR9HwoqTqnN37kBIeh0WpFwmkRLxgcueZdRv9PxZ2pIPrxRyMLNj4750n8GAmXzwaDv4fNUr6vMosj2umnxyWGFw48tq8Vn6b75MeadI2Tu07occJRKnYN+5W2OVWhwi17f2SZT9NdHBIJJYu1GuzG6e4EwHzTz+iqxRtjTWxrkDCcopKmwyc42seN/JdozzEaATAY0h13XhM1k26vNkafhCkWQcTaTpZpjTc1Voz0jPqQajjP4d1krHs8377lO1ZZ5ZADXFykgvGzflf93WREqo9MODlbXbkxpkvqiyBIZM/28IR/EsnHJhYvY5ucEAMovAyp1tu567QPZNJF6XRsKw==\""
+                }
+            },
+            "user owen": {
+                "class": "super-user",
+                "authentication": {
+                    "ssh-ecdsa": "\"ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBjjcUJLTENGrV6K/nrPOswcBVMMuS4sLSs0UyTRw8wU87PDUzJz8Ht2SgHqeEQJdRm1+b6iLsx2uKOf+/pU8qE= root@kiev.delong.com\""
+                }
+            },
+            "user rob": {
+                "class": "super-user",
+                "authentication": {
+                    "ssh-rsa": "\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDBP0XP83nOtxnsGJ7AG+FuT7dbAEO8BrIHlPbhCGhKjFKcq8g6LWa0htx3iwHJB2VfasIVSqWAC7SwX81XfSTwpvNSNVXvrIcMNdYOpEBHx5W94iVP2ooVVsGIeK/M+Eu9toiHebtVFT45hQ8VO5DwqbG6xPgEp1PmLsPhyBwP0LyC8Q4tA2ttftC6/fJa6fa1G54c7D/euIhZnyM/ovcpYfNYTlarX/yLJoYaOEk5ByYJPYnpQtm2GQX8CdT/U14nDtJ/VjzW8kP/R6+ZsmGpxBrWp2Mn03LjL4CzTSN3cbE2CAKKSjkIcaaoohRZS+JXnxm5+TXF/6QmN0MPU3SSThKWIzOhzfMrLqOu6hsw16x9lF1eJreUZr/WysWOswM4WNoffBv6mKvVsMR8Z8tgERR8+sIxUaoVOfChR9wRoD5lcNnVxrC6rcF+rBxeY4JiPS3zpyamwteyR0n2YspT9Dl0MlZb4cWml2aBnvYk0TmoCC3eGs+2/wssL4s+64TiFC8WkK7U7RW0eYODwPJQbzNGZBjcsVlKD4whs5cNGlgjkZJzTdFt49EwIKmFnSd9Ly/NY3zhByFS/MN3Mj9I2AqMRZ/i4iT72gATE9aLle1xViGxjK7bHmHT2H1yqQhJ5bMcorpDzSZyTkyBTDDnOgh8tM+tBG204kYywQW/RQ==\""
+                }
+            },
+            "user steveb": {
+                "class": "super-user",
+                "authentication": {
+                    "ssh-rsa": "\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrMBEZC9WB9dJMGoev5b+P8I5UtcQLLpoBfKDrEF8bHdQ1AcdpCMtEnTVNmqVMzq8+gRR2CzbqI1Ue7KteFtZX/YtKIEEyL6D5kzhWyQrybl35nxA5VIKJrNszHdXDb/MGMwTMfWV1/VEka4UnCwXpgPH/AXQ/abhmFFDAJnc+PmqXPX3fHA4J5fpl/6CkT7JLKGMpsI7LCtU6cohtnXZrDHqFmPa6T+nHv2cT2QF6eSIPuMX7sLth6QI92yTam8+QUAeMFzEZOcmb6W8CNGio13ezn8ljQ6lB5uZLHhnnuxG9z6RJZugMzU9UxpkHRSKUVX9+qRGf1ntiPKE5Pb4x bibayoff@gmail.com\""
+                }
+            }
+        },
+        "services": {
+            "ssh": {
+                "protocol-version": "v2"
+            },
+            "netconf": {
+                "ssh": ""
+            }
+        }
+    },
+    "chassis": {
+        "alarm": {
+            "management-ethernet": {
+                "link-down": "ignore"
+            }
+        }
+    },
+    "snmp": {
+        "community Junitux": {
+            "authorization": "read-only",
+            "clients": {
+                "2001:470:f325:103::/64": "",
+                "2001:470:f325:503::/64": ""
+            }
+        }
+    },
+    "interfaces": {
+        "me-0": {
+            "unit 0": {
+                "family inet": {
+                    "address": "192.168.255.76/24"
+                }
+            }
+        },
+        "ge-0/0/0": {
+            "description": "\"TRUNK Port (exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone ]"
+                }
+            }
+        },
+        "ge-0/0/1": {
+            "description": "\"TRUNK Port (exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exSCALE-SLOW exSCALE-FAST exSpeaker exInfra exAVLAN exSigns exStaff vendor_backbone ]"
+                }
+            }
+        },
+        "ge-0/0/8": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/9": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/10": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/11": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/12": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/13": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/14": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/15": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/16": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "ge-0/0/17": {
+            "description": "\"TRUNK Port (exInfra exSCALE-SLOW exSCALE-FAST exStaff)\"",
+            "unit 0": {
+                "family ethernet-switching": {
+                    "port-mode": "trunk",
+                    "vlan": "members [ exInfra exSCALE-SLOW exSCALE-FAST exStaff ]"
+                }
+            }
+        },
+        "inactive: ge-0/0/18": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "inactive: ge-0/0/19": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "inactive: ge-0/0/20": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "inactive: ge-0/0/21": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "inactive: ge-0/0/22": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "inactive: ge-0/0/23": {
+            "unit 0": {
+                "family": "ethernet-switching"
+            }
+        },
+        "ge-0/0/24": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 248\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_248"
+                    }
+                }
+            }
+        },
+        "ge-0/0/25": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 249\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_249"
+                    }
+                }
+            }
+        },
+        "ge-0/0/26": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 250\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_250"
+                    }
+                }
+            }
+        },
+        "ge-0/0/27": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 251\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_251"
+                    }
+                }
+            }
+        },
+        "ge-0/0/28": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 252\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_252"
+                    }
+                }
+            }
+        },
+        "ge-0/0/29": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 253\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_253"
+                    }
+                }
+            }
+        },
+        "ge-0/0/30": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 254\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_254"
+                    }
+                }
+            }
+        },
+        "ge-0/0/31": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 255\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_255"
+                    }
+                }
+            }
+        },
+        "ge-0/0/32": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 256\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_256"
+                    }
+                }
+            }
+        },
+        "ge-0/0/33": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 257\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_257"
+                    }
+                }
+            }
+        },
+        "ge-0/0/34": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 258\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_258"
+                    }
+                }
+            }
+        },
+        "ge-0/0/35": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 259\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_259"
+                    }
+                }
+            }
+        },
+        "ge-0/0/36": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 260\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_260"
+                    }
+                }
+            }
+        },
+        "ge-0/0/37": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 261\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_261"
+                    }
+                }
+            }
+        },
+        "ge-0/0/38": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 262\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_262"
+                    }
+                }
+            }
+        },
+        "ge-0/0/39": {
+            "unit 0": {
+                "description": "\"Vendor VLAN 263\"",
+                "family ethernet-switching": {
+                    "port-mode": "access",
+                    "vlan": {
+                        "members": "vendor_vlan_263"
+                    }
+                }
+            }
+        },
+        "vlan": {
+            "#": "Automatically Generated Layer 3 Configuration for ExpoA4 (MGT: 103 Addr: 2001:470:f325:103::200:38 Type: Booth",
+            "unit 103": {
+                "family inet6": {
+                    "address": "2001:470:f325:103::200:38/64"
+                }
+            },
+            "unit 499": {
+                "family inet": {
+                    "address": "10.1.0.58/24"
+                }
+            },
+            "unit 248": {
+                "family inet": {
+                    "address": "10.2.48.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:248::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 249": {
+                "family inet": {
+                    "address": "10.2.49.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:249::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 250": {
+                "family inet": {
+                    "address": "10.2.50.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:250::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 251": {
+                "family inet": {
+                    "address": "10.2.51.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:251::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 252": {
+                "family inet": {
+                    "address": "10.2.52.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:252::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 253": {
+                "family inet": {
+                    "address": "10.2.53.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:253::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 254": {
+                "family inet": {
+                    "address": "10.2.54.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:254::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 255": {
+                "family inet": {
+                    "address": "10.2.55.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:255::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 256": {
+                "family inet": {
+                    "address": "10.2.56.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:256::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 257": {
+                "family inet": {
+                    "address": "10.2.57.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:257::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 258": {
+                "family inet": {
+                    "address": "10.2.58.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:258::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 259": {
+                "family inet": {
+                    "address": "10.2.59.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:259::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 260": {
+                "family inet": {
+                    "address": "10.2.60.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:260::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 261": {
+                "family inet": {
+                    "address": "10.2.61.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:261::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 262": {
+                "family inet": {
+                    "address": "10.2.62.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:262::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            },
+            "unit 263": {
+                "family inet": {
+                    "address": "10.2.63.1/24",
+                    "filter": [
+                        "input only_to_internet",
+                        "output only_from_internet"
+                    ]
+                },
+                "family inet6": {
+                    "address": "2001:470:f325:263::1/64",
+                    "filter": [
+                        "input only_to_internet6",
+                        "output only_from_internet6"
+                    ]
+                }
+            }
+        }
+    },
+    "forwarding-options": {
+        "dhcp-relay": {
+            "dhcpv6": {
+                "group vendors": {
+                    "interface": [
+                        "vlan.248",
+                        "vlan.249",
+                        "vlan.250",
+                        "vlan.251",
+                        "vlan.252",
+                        "vlan.253",
+                        "vlan.254",
+                        "vlan.255",
+                        "vlan.256",
+                        "vlan.257",
+                        "vlan.258",
+                        "vlan.259",
+                        "vlan.260",
+                        "vlan.261",
+                        "vlan.262",
+                        "vlan.263"
+                    ]
+                },
+                "server-group": {
+                    "Conference": {
+                        "2001:470:f325:503::5": ""
+                    },
+                    "Expo": {
+                        "2001:470:f325:103::5": ""
+                    },
+                    "AV": {
+                        "2001:470:f325:105::10": ""
+                    }
+                },
+                "active-server-group": "Expo"
+            },
+            "server-group": {
+                "Conference": {
+                    "10.128.3.5": ""
+                },
+                "Expo": {
+                    "10.0.3.5": ""
+                },
+                "AV": {
+                    "10.0.5.10": ""
+                }
+            },
+            "active-server-group": "Expo",
+            "group vendors": {
+                "interface": [
+                    "vlan.248",
+                    "vlan.249",
+                    "vlan.250",
+                    "vlan.251",
+                    "vlan.252",
+                    "vlan.253",
+                    "vlan.254",
+                    "vlan.255",
+                    "vlan.256",
+                    "vlan.257",
+                    "vlan.258",
+                    "vlan.259",
+                    "vlan.260",
+                    "vlan.261",
+                    "vlan.262",
+                    "vlan.263"
+                ]
+            }
+        }
+    },
+    "routing-options": {
+        "static": {
+            "route": "0.0.0.0/0 next-hop 10.2.0.1"
+        },
+        "rib inet6.0": {
+            "static": {
+                "route": "::/0 next-hop 2001:470:f325:103::1"
+            }
+        }
+    },
+    "protocols": {
+        "igmp-snooping": {
+            "vlan": "all"
+        },
+        "rstp": "",
+        "lldp": {
+            "interface": "all"
+        },
+        "lldp-med": {
+            "interface": "all"
+        },
+        "router-advertisement": {
+            "interface vlan.248": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:248::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.249": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:249::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.250": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:250::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.251": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:251::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.252": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:252::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.253": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:253::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.254": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:254::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.255": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:255::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.256": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:256::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.257": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:257::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.258": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:258::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.259": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:259::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.260": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:260::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.261": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:261::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.262": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:262::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            },
+            "interface vlan.263": {
+                "other-stateful-configuration": "",
+                "dns-server-address": [
+                    "2001:470:f325:103::5",
+                    "2001:470:f325:503::5"
+                ],
+                "prefix 2001:470:f325:263::/64": {
+                    "on-link": "",
+                    "autonomous": ""
+                }
+            }
+        },
+        "ospf": {
+            "area 0.0.0.0": {
+                "interface": "vlan.499",
+                "interface vlan.248": {
+                    "passive": ""
+                },
+                "interface vlan.249": {
+                    "passive": ""
+                },
+                "interface vlan.250": {
+                    "passive": ""
+                },
+                "interface vlan.251": {
+                    "passive": ""
+                },
+                "interface vlan.252": {
+                    "passive": ""
+                },
+                "interface vlan.253": {
+                    "passive": ""
+                },
+                "interface vlan.254": {
+                    "passive": ""
+                },
+                "interface vlan.255": {
+                    "passive": ""
+                },
+                "interface vlan.256": {
+                    "passive": ""
+                },
+                "interface vlan.257": {
+                    "passive": ""
+                },
+                "interface vlan.258": {
+                    "passive": ""
+                },
+                "interface vlan.259": {
+                    "passive": ""
+                },
+                "interface vlan.260": {
+                    "passive": ""
+                },
+                "interface vlan.261": {
+                    "passive": ""
+                },
+                "interface vlan.262": {
+                    "passive": ""
+                },
+                "interface vlan.263": {
+                    "passive": ""
+                }
+            }
+        },
+        "ospf3": {
+            "area 0.0.0.0": {
+                "interface": "vlan.103",
+                "interface vlan.248": {
+                    "passive": ""
+                },
+                "interface vlan.249": {
+                    "passive": ""
+                },
+                "interface vlan.250": {
+                    "passive": ""
+                },
+                "interface vlan.251": {
+                    "passive": ""
+                },
+                "interface vlan.252": {
+                    "passive": ""
+                },
+                "interface vlan.253": {
+                    "passive": ""
+                },
+                "interface vlan.254": {
+                    "passive": ""
+                },
+                "interface vlan.255": {
+                    "passive": ""
+                },
+                "interface vlan.256": {
+                    "passive": ""
+                },
+                "interface vlan.257": {
+                    "passive": ""
+                },
+                "interface vlan.258": {
+                    "passive": ""
+                },
+                "interface vlan.259": {
+                    "passive": ""
+                },
+                "interface vlan.260": {
+                    "passive": ""
+                },
+                "interface vlan.261": {
+                    "passive": ""
+                },
+                "interface vlan.262": {
+                    "passive": ""
+                },
+                "interface vlan.263": {
+                    "passive": ""
+                }
+            }
+        },
+        "": ""
+    },
+    "firewall": {
+        "family inet": {
+            "filter only_to_internet": {
+                "term dns": {
+                    "from": {
+                        "destination-address": {
+                            "10.0.3.0/24": "",
+                            "10.128.3.0/24": ""
+                        },
+                        "destination-port": "domain"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term dhcp": {
+                    "from": {
+                        "destination-address": {
+                            "10.0.3.0/24": "",
+                            "10.128.3.0/24": ""
+                        },
+                        "destination-port": "[ bootps dhcp ]"
+                    }
+                },
+                "term no-rfc1918": {
+                    "from": {
+                        "destination-address": {
+                            "10.0.0.0/8": "",
+                            "172.16.0.0/12": "",
+                            "192.168.0.0/16": ""
+                        }
+                    },
+                    "then": {
+                        "reject": ""
+                    }
+                },
+                "term to-internet": {
+                    "from": {
+                        "destination-address": {
+                            "0.0.0.0/0": ""
+                        }
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                }
+            },
+            "filter only_from_internet": {
+                "term dns": {
+                    "from": {
+                        "source-address": {
+                            "10.0.3.0/24": "",
+                            "10.128.3.0/24": ""
+                        },
+                        "source-port": "domain"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term dhcp": {
+                    "from": {
+                        "source-address": {
+                            "10.0.3.0/24": "",
+                            "10.128.3.0/24": ""
+                        },
+                        "source-port": "[ bootps dhcp ]"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term no-rfc1918": {
+                    "from": {
+                        "source-address": {
+                            "10.0.0.0/8": "",
+                            "172.16.0.0/12": "",
+                            "192.168.0.0/16": ""
+                        }
+                    },
+                    "then": {
+                        "discard": ""
+                    }
+                },
+                "term to-internet": {
+                    "from source-address": {
+                        "0.0.0.0/0": ""
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                }
+            }
+        },
+        "family inet6": {
+            "filter only_to_internet6": {
+                "term dns": {
+                    "from": {
+                        "destination-address": {
+                            "2001:470:f325:103::/64": "",
+                            "2001:470:f325:503::/64": ""
+                        },
+                        "destination-port": "domain"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term dhcp": {
+                    "from": {
+                        "destination-address": {
+                            "2001:470:f325:103::/64": "",
+                            "2001:470:f325:503::/64": ""
+                        },
+                        "destination-port": "[ bootps dhcp ]"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term no-local": {
+                    "from": {
+                        "destination-address": {
+                            "2001:470:f325::/48": "",
+                            "fc00::/7": ""
+                        }
+                    },
+                    "then": {
+                        "reject": ""
+                    }
+                },
+                "term to-internet": {
+                    "from": {
+                        "destination-address": {
+                            "::/0": ""
+                        }
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                }
+            },
+            "filter only_from_internet6": {
+                "term dns": {
+                    "from": {
+                        "source-address": {
+                            "2001:470:f325:103::/64": "",
+                            "2001:470:f325:503::/64": ""
+                        },
+                        "source-port": "domain"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term dhcp": {
+                    "from": {
+                        "source-address": {
+                            "2001:470:f325:103::/64": "",
+                            "2001:470:f325:503::/64": ""
+                        },
+                        "source-port": "[ bootps dhcp ]"
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                },
+                "term no-local": {
+                    "from": {
+                        "source-address": {
+                            "2001:470:f325::/48": "",
+                            "fc00::/7": ""
+                        }
+                    },
+                    "then": {
+                        "discard": ""
+                    }
+                },
+                "term to-internet": {
+                    "from": {
+                        "source-address": {
+                            "::/0": ""
+                        }
+                    },
+                    "then": {
+                        "accept": ""
+                    }
+                }
+            }
+        }
+    },
+    "ethernet-switching-options": {
+        "storm-control": {
+            "interface": "all"
+        }
+    },
+    "vlans": {
+        "exSCALE-SLOW": {
+            "description": "\"2.4G Wireless Network in Expo Center\"",
+            "vlan-id": "100"
+        },
+        "exSCALE-FAST": {
+            "description": "\"5G Wireless Network in Expo Center\"",
+            "vlan-id": "101"
+        },
+        "exSpeaker": {
+            "description": "\"Speaker Network\"",
+            "vlan-id": "102"
+        },
+        "exInfra": {
+            "description": "\"SCALE Network Infrastructure and Servers (Expo Center)\"",
+            "vlan-id": "103",
+            "l3-interface": "vlan.103"
+        },
+        "exMDF": {
+            "description": "\"Link to MDF Router\"",
+            "vlan-id": "104"
+        },
+        "exAVLAN": {
+            "description": "\"Audio Visual Network (DHCP Helper to AV server)\"",
+            "vlan-id": "105"
+        },
+        "exSigns": {
+            "description": "\"Signs network (Expo Center) IPv6 Only\"",
+            "vlan-id": "107"
+        },
+        "exStaff": {
+            "description": "\"Staff Wireless Network\"",
+            "vlan-id": "108"
+        },
+        "exRegistration": {
+            "description": "\"Registration Network (Expo Center) IPv6 Only\"",
+            "vlan-id": "110"
+        },
+        "exAkamai": {
+            "description": "\"Special public Akamai Cache Cluster network (has IPv4 from convention center)\"",
+            "vlan-id": "111"
+        },
+        "cfSCALE-SLOW": {
+            "description": "\"2.4G Wireless Network in Conference Center\"",
+            "vlan-id": "500"
+        },
+        "cfSCALE-FAST": {
+            "description": "\"5G Wireless Network in Conference Center\"",
+            "vlan-id": "501"
+        },
+        "cfSpeaker": {
+            "description": "\"Speaker Network\"",
+            "vlan-id": "502"
+        },
+        "cfInfra": {
+            "description": "\"SCALE Network Infrastructure and Servers (Conference Center)\"",
+            "vlan-id": "503"
+        },
+        "cfCTF": {
+            "description": "\"Capture the Flag\"",
+            "vlan-id": "504"
+        },
+        "cfAVLAN": {
+            "description": "\"Audio Visual Network (DHCP Helper to AV server)\"",
+            "vlan-id": "505"
+        },
+        "cfNOC": {
+            "description": "\"Wired network in NOC\"",
+            "vlan-id": "506"
+        },
+        "cfSigns": {
+            "description": "\"Signs network (Conference Center) IPv6 Only\"",
+            "vlan-id": "507"
+        },
+        "cfStaff": {
+            "description": "\"Staff Wifi Network\"",
+            "vlan-id": "508"
+        },
+        "cfHam_N6S": {
+            "description": "\"HAM radio station in Conference Center\"",
+            "vlan-id": "509"
+        },
+        "MDF_LINK": {
+            "description": "\"Link between IDF in Conference and Expo Centers\"",
+            "vlan-id": "900"
+        },
+        "HAM_BRIDGE": {
+            "description": "\"Link between N6S station and Ham Booth in Expo\"",
+            "vlan-id": "950"
+        },
+        "COGENT": {
+            "description": "\"COGENT IPv4 Transit Link (PSAV & PCC)\"",
+            "vlan-id": "999"
+        },
+        "vendor_backbone": {
+            "description": "\"Vendor Backbone\"",
+            "vlan-id": "499",
+            "l3-interface": "vlan.499"
+        },
+        "vendor_vlan_248": {
+            "vlan-id": "248",
+            "l3-interface": "vlan.248"
+        },
+        "vendor_vlan_249": {
+            "vlan-id": "249",
+            "l3-interface": "vlan.249"
+        },
+        "vendor_vlan_250": {
+            "vlan-id": "250",
+            "l3-interface": "vlan.250"
+        },
+        "vendor_vlan_251": {
+            "vlan-id": "251",
+            "l3-interface": "vlan.251"
+        },
+        "vendor_vlan_252": {
+            "vlan-id": "252",
+            "l3-interface": "vlan.252"
+        },
+        "vendor_vlan_253": {
+            "vlan-id": "253",
+            "l3-interface": "vlan.253"
+        },
+        "vendor_vlan_254": {
+            "vlan-id": "254",
+            "l3-interface": "vlan.254"
+        },
+        "vendor_vlan_255": {
+            "vlan-id": "255",
+            "l3-interface": "vlan.255"
+        },
+        "vendor_vlan_256": {
+            "vlan-id": "256",
+            "l3-interface": "vlan.256"
+        },
+        "vendor_vlan_257": {
+            "vlan-id": "257",
+            "l3-interface": "vlan.257"
+        },
+        "vendor_vlan_258": {
+            "vlan-id": "258",
+            "l3-interface": "vlan.258"
+        },
+        "vendor_vlan_259": {
+            "vlan-id": "259",
+            "l3-interface": "vlan.259"
+        },
+        "vendor_vlan_260": {
+            "vlan-id": "260",
+            "l3-interface": "vlan.260"
+        },
+        "vendor_vlan_261": {
+            "vlan-id": "261",
+            "l3-interface": "vlan.261"
+        },
+        "vendor_vlan_262": {
+            "vlan-id": "262",
+            "l3-interface": "vlan.262"
+        },
+        "vendor_vlan_263": {
+            "vlan-id": "263",
+            "l3-interface": "vlan.263"
+        }
+    }
+}
