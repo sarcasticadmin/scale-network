@@ -2,6 +2,7 @@ package main
 
 default allow = false
 
+# Possible to do wildcarding?
 set_mgmt_address {
 	input.interfaces["me-0"]["unit 0"]["family inet"].address == "192.168.255.76/24"
 }
