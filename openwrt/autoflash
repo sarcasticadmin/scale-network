@@ -4,7 +4,8 @@ spawn gpioctl -c 2 OUT
 spawn gpioctl -c 3 OUT
 # Off
 spawn gpioctl -p 2 1
-spawn sudo service isc-dhcpd onestop
+#spawn sudo service isc-dhcpd onestop
+spawn sudo pkill dnsmasq
 spawn /usr/sbin/arp -d 192.168.254.100
 sleep 5
 # on
@@ -36,7 +37,8 @@ close
 spawn /usr/sbin/arp -d 192.168.1.1
 spawn sudo ifconfig ue1.503 create
 spawn sudo ifconfig ue1.503 inet 192.168.254.1 255.255.255.0
-spawn sudo service isc-dhcpd onestart
+#spawn sudo service isc-dhcpd onestart
+spawn sudo dnsmasq -i ue1.503 --dhcp-range=192.168.254.100,192.168.254.100,255.255.255.0,30s --dhcp-option=3,192.168.254.1
 sleep 5
 spawn ping -n 192.168.254.100
 expect {
