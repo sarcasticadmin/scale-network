@@ -1,10 +1,8 @@
 {
-  pkgs,
-  libs,
-  stdenv,
+  rustPlatform,
   fetchFromGitHub,
 }:
-pkgs.rustPlatform.buildRustPackage {
+rustPlatform.buildRustPackage {
   pname = "rperf";
   version = "0.1.23";
   checkType = "debug";
@@ -16,21 +14,13 @@ pkgs.rustPlatform.buildRustPackage {
     hash = "sha256-gTdp7LpPwWi6hUu62hMPYbdaLCdQNWPl/VxIrE91vww=";
   };
 
-  nativeBuildInputs = with rustPlatform; [     
-    rustc
-    cargo
-  ];
-  cargoHash = libs.fakeHash;
-  cargoBuildFlags = [
-    "--release"
-  ];
+  cargoHash = "sha256-itstgUiASkSlPFbMmKRIEVebApYBDDQT8GRghbeheLA=";
 
   meta = {
     description = "A Rust implementation of the iperf3 tool.";
     homepage = "https://github.com/mfreeman451/rperf";
   };
 }
-
 
 # with import <nixpkgs> { };
 
